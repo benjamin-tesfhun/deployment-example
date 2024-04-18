@@ -1,0 +1,17 @@
+.nav{
+    display: flex;
+    gap: 20px;
+}
+.nav2{
+    margin-top: 1.9%;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.h{
+    color: brown;
+}
+.thanks{
+    color: red;
+}

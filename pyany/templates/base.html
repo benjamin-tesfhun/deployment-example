@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>python anywhare test</title>
+    <link rel="stylesheet" href="{% static "pycss.css" %}">
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav1"><a class="link" href="{%url 'home'%}">home</a></h1>
+        <h2 class="nav2"><a class="link" href="{%url 'other'%}">other</a></h2>
+    </div>
+    {% block content %}{% endblock %}
+</body>
+</html>
